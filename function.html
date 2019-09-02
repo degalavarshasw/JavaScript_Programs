@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> function </title>
+</head>
+<body>
+	<input type="text" id="num">
+	<input type="button" onclick="square()" value="click">
+	<p id="demo"></p>
+	</body>
+	<script>
+		function square(){
+		var a=document.getElementById("num").value;
+		var square=Number(a*a);
+		document.getElementById('demo').innerHTML=square;
+
+		}
+	</script>
+	</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Write a Program to define calling function in another function?</title>
+</head>
+<body>
+
+</body>
+<p id="demo"></p>
+<script type="text/javascript">
+	var person={
+		fullName:function()
+		{
+			return this.firstName + " " + this.lastName;
+
+		}
+	}
+	var person1={
+		firstName:"ram",
+		lastName:"kumar",
+	}
+	var person2={
+		firstName:"mani",
+		lastName:"raju",
+
+	}
+	x=person.fullName.call(person2);
+	document.getElementById("demo").innerHTML=x;
+
+</script>
+</html>

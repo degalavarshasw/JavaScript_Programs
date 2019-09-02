@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+
+<p>
+  <a href="80.html">HTML</a><br>
+  <a href="81.html">CSS</a>
+</p>
+
+<p>Click the button to display the number of links in the document.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var x = document.links.length;
+  document.getElementById("demo").innerHTML = x;
+}
+</script>
+</html>

@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<img src="images/flower.jpg" alt="flower" width="150" height="113">
+<img src="images/flower1.jpg" alt="flower" width="152" height="128">
+<img src="images/flower2.jpg" alt="flower" width="152" height="122">
+
+<p>Click the button to display the URL of the first image (index 0) in the document.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var x = document.images[0].src;
+  
+  document.getElementById("demo").innerHTML = x;
+  
+
+}
+</script>
+
+</body>
+</html>

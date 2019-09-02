@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<p>Click the button to display the number that represent this month.</p>
+<button onclick="myFunction()">Try it</button>
+<p id="demo"></p>
+</body>
+<script>
+function myFunction() {
+  var d = new Date();
+  var n = d.getMonth();
+  document.getElementById("demo").innerHTML = n;
+}
+</script>
+</html>

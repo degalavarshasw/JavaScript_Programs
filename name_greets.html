@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Write a program that asks the user for their name and greets them with their name.</title>
+</head>
+<body>
+
+</body>
+<p id="demo"></p>
+<script type="text/javascript">
+	var h={
+		fn:"revanth",
+		ln:"reddy",
+		fullName:function()
+		{
+			return this.fn+ " " + this.ln;
+		}
+	}
+	x=h.fullName();
+	document.getElementById("demo").innerHTML=x;
+</script>
+</html>

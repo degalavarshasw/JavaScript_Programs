@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<p>Click the button to extract characters from the string.</p>
+<button onclick="myFunction()">Try it</button>
+<p id="demo"></p>
+</body>
+<script>
+function myFunction() {
+  var str = "Hello world!";
+  var res = str.substring(1, 4);
+  document.getElementById("demo").innerHTML = res;
+}
+</script>
+</html>

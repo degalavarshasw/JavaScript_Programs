@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<p>Click the button to locate where in the string a specifed value occurs.</p>
+<button onclick="myFunction()">Try it</button>
+<p id="demo"></p>
+</body>
+<script>
+function myFunction() {
+  var str = "Hello world, welcome to the universe.";
+  var n = str.indexOf("welcome");
+  document.getElementById("demo").innerHTML = n;
+}
+</script>
+</html>

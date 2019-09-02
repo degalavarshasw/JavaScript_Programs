@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<h2>JavaScript Regular Expressions</h2>
+<p>Replace "microsoft" with "tmf" in the paragraph below:</p>
+<button onclick="myFunction()">Try it</button>
+<p id="demo">Please visit Microsoft and Microsoft!</p>
+</body>
+<script>
+function myFunction() {
+  var str = document.getElementById("demo").innerHTML; 
+  var txt = str.replace(/microsoft/i,"tmf");
+  document.getElementById("demo").innerHTML = txt;
+}
+</script>
+</html>

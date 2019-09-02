@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> function calling in another function</title>
+</head>
+<body>
+	</body>
+	<script>
+		function addNumbers(num1,num2){
+			var b="result is:"
+		
+		function add(){
+			return b+(num1+num2);
+
+		}
+		return add();
+	}
+	var result=addNumbers(2,3);
+	document.write(result);
+	</script>
+	</html>

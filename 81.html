@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<img src="img/asd.jpg" alt="flower" width="150" height="113">
+<img src="img/download1.jpg" alt="flower1" width="152" height="128">
+
+<p>Click the button to display the number of images in the document.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+</body>
+
+<script>
+function myFunction() {
+  var x = document.images.length;
+  document.getElementById("demo").innerHTML = x;
+}
+</script>
+</html>

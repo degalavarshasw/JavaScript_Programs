@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> adding array elements</title>
+</head>
+<body>
+
+	<p id="demo"></p>
+	</body>
+	<script>
+		var a=[1,2,3,67];
+			document.getElementById("demo").innerHTML=a;
+		function myFunction(){
+			a.push(78);
+			document.getElementById("demo").innerHTML=a;
+			a.shift();
+			document.getElementById("demo").innerHTML=a;
+		}
+		myFunction();
+	</script>
+	</html>

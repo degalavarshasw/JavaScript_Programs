@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<p>Click the button to replace "Microsoft" with "W3Schools" in the paragraph below:</p>
+<p id="demo">Visit Microsoft!</p>
+<button onclick="myFunction()">Try it</button>
+</body>
+<script>
+function myFunction() {
+  var str = document.getElementById("demo").innerHTML; 
+  var res = str.replace("Microsoft", "Hyd");
+  document.getElementById("demo").innerHTML = res;
+}
+</script>
+</html>

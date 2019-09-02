@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> prgrm</title>
+</head>
+<body>
+	<form>
+		<input type="text" id="num1">
+		<input type="text" id="num2">
+		<input type="button" onclick="add()" value="check answer">
+		<p id="demo"></p>
+	</form>
+	</body>
+	<script>
+		function add()
+		{
+			var a=document.getElementById("num1").value;
+			var b=document.getElementById("num2").value;
+			
+		
+			if(a===b)
+			{
+				var result=3*(Number(a)+Number(b));
+				
+				document.getElementById('demo').innerHTML=result;
+			}
+			else
+			{
+				var result=Number(a)+Number(b);
+			
+				document.getElementById('demo').innerHTML=result;
+			}
+			
+		}
+		
+		
+			
+	</script>
+	</html>

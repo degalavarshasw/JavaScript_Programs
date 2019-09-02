@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<h1 style="color: green">vinay</h1> 
+<b>How to remove a character from a string using Javascript?</b> 
+<p>Original string vinay</p> 
+<p>New String is:  
+<span class="output"></span> 
+</p> 
+<button onclick="removeCharacter()">Remove Character</button> 
+<script type="text/javascript"> 
+function removeCharacter() { 
+originalString = 'vinay'; 
+newString = originalString.replace('v', ''); 
+document.querySelector('.output').textContent = newString; 
+} 
+</script>
+</html>
