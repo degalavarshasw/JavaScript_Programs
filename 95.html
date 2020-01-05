@@ -4,11 +4,13 @@
 	<title></title>
 </head>
 <body>
-<button onclick="allLetter()">Try it</button>
+	<input type="text"  id="inputtxt">
+<input type="button" onclick="allLetter()" value="Check Letters">
 </body>
 <script type="text/javascript">
-function allLetter(inputtxt)
+function allLetter()
  { 
+ var inputtxt = document.getElementById("inputtxt").value;
  var letters = /^[A-Za-z]+$/;
  if(inputtxt.match(letters))
  {

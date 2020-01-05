@@ -4,14 +4,14 @@
 	<title></title>
 </head>
 <body>
-
-<input type="submit" id="btnVal" value="Save" onclick="IsMobileNumber('txtMobId')"/>
+<input type="text" id="txtMobId">
+<input type="button" id="btnVal" value="Save" onclick="IsMobileNumber()"/>
 <p id="txtMobId"></p>
 </body>
 <script>
 function IsMobileNumber(txtMobId) {
     var mob = /^[1-9]{1}[0-9]{9}$/;
-    var txtMobile = document.getElementById(txtMobId);
+    var txtMobile = document.getElementById("txtMobId").value;
     if (mob.test(txtMobile.value) == false) {
         alert("Please enter valid mobile number.");
         txtMobile.focus();
